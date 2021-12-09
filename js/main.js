@@ -14,7 +14,7 @@ function playMusic() {
     var player = document.getElementById("audio");
     play();
     function play(){
-    swal("欢迎浏览小牛云主页\n请问是否开启音乐\n一边浏览一边听呢？", {
+    swal("欢迎来到沐沐酱个人主页\n请问是否开启音乐\n一边浏览一边听呢？", {
             buttons: {
                 cancel: "开启",
                 allow: "关闭"
