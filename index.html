@@ -1,266 +1,139 @@
+<!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
-		<meta charset="utf-8">
-		<title>
-			沐沐个人主页
-		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="./mdui/css/mdui.min.css">
-		<link rel="stylesheet" href="./assets/css/main.css">
-		<link rel="stylesheet" href="./assets/css/index.css">
-		<!-- <link rel="stylesheet" href="/assets/css/detaile.css"> -->
-		<link rel="stylesheet" href="https://at.alicdn.com/t/font_1625701_q2422cy34wn.css">
-		<link rel="icon" href="http://q1.qlogo.cn/g?b=qq&s=640&nk=3438063297">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<title>沐沐 | 小仙女一枚</title>   
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="KEYWords" contect="沐沐,个人主页,个人引导页">
+		<meta name="DEscription" contect="沐沐的个人引导页">
+		<meta name="Author" contect="沐沐">
+		<meta name="Robots" contect= "all">
+		<link rel="stylesheet"  href="style.css">
 	</head>
-	<body class="mdui-theme-primary-pink mdui-theme-accent-pink">
-		<div id="rin-bg">
-		</div>
-		<main id="rin-main">
-			<div class="mdui-row">
-				<div class="mdui-col-xs-12 mdui-col-md-2">
-					<div class="rin-left">
-						<div class="rin-logo">
-							<img src="http://q1.qlogo.cn/g?b=qq&s=640&nk=3438063297">
+	<body>
+		<div class="container"><!-- 主体开始 -->
+			<div class="hander"><!-- 导航开始 -->
+				<nav id="nav-menu">
+					<a href="#" data-rel="home-me-section" class="active">首页</a>
+					<a href="#" data-rel="about-exp-section">关于</a>
+					<a href="#" data-rel="course-exp-section">历程</a>
+					<a href="#" data-rel="website-exp-section">站点</a>
+					</nav>
+				</div><!-- 导航结束 -->
+			<div class="content"><!-- 内容开始 -->
+				<section class="home-me-section active-section"><!-- 首页开始 -->
+					<div class="main"><!-- 首页内容 -->
+						<img src="img/bgo.jpg" class="bgo" />
+						<img src="https://q1.qlogo.cn/g?b=qq&nk=3438063297&s=640" class="ato" onclick="alert('打咩，阁下为何一直戳我')" />
+						<div class="name" onclick="javascript:this.innerHTML=(this.innerHTML=='沐沐'?'yue°':'沐沐');">沐沐</div>
+						<div class="motto" onclick="javascript:this.innerHTML=(this.innerHTML=='心存敬畏 行有所止'?'yue in awe and sip':'心存敬畏 行有所止');">心存敬畏 行有所止</div>
+						<div class="navo">
+							<ul>
+								<li><a href="href="http://wpa.qq.com/msgrd?v=3&uin=3438063297&site=qq&menu=yes" target="_blank"><i class="fab fa-qq"></i></a></li><!-- QQ -->
+								<li><a href="#" target="_blank"><i class="fab fa-weibo"></i></a></li><!-- 微博 -->
+								<li><a href="https://jq.qq.com/?_wv=1027&k=emeNGM2G" target="_blank"><i class="fab fa-twitter"></i></a></li><!-- QQ群 -->
+								<li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li><!-- github -->
+								<li><a href="https://baidu.com" target="_blank"><i class="fas fa-paw"></i></a></li><!-- 百度 -->
+								<li><a href="#" target="_blank"><i class="fas fa-envelope"></i></a></li><!-- 邮箱 -->
+							</ul>
 						</div>
-						<div class="rin-left-title">
-							沐&nbsp;沐
+					</div><!-- 首页内容结束 -->
+					</section><!-- 首页结束 -->
+				<section class="about-exp-section"><!-- 关于开始 -->
+					<div class="main"><!-- 关于内容 -->
+						<img src="img/bgt.jpg" class="bgt" />
+						<img src="https://q1.qlogo.cn/g?b=qq&nk=3438063297&s=640" class="ats" />
+						<div class="about">
+							<p>>_公主殿下的任务呢就是天天开心。
+							<br>>_山有木兮卿有意 昨夜星辰恰似你
+							</p>
 						</div>
-						<div class="rin-left-title2">
-							AFQAQ
+						<div class="about" style="margin-top:20px;">
+							<p>曾经，林深时见鹿，海蓝时见鲸，梦醒时见你，然而，林深时雾起，海蓝时浪涌，梦醒时夜续，不见鹿，不见鲸，亦不见你……
+							<br>见色起意也好 一见钟情也罢 反正第一眼 我就喜欢你</p>
 						</div>
-						<div class="rin-left-slogan">
-							「因为我想赢 所以你得输 整不好你还得哭」
-						</div>
-						<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize"
-						href="#" target="_blank">
-							<span class="iconfont iconGallery">
-							</span>
-							博客
-						</a>
-						<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize"
-						href="https://81645.huiansheng.cn/" target="_blank">
-							<span class="iconfont iconAPI call">
-							</span>
-							沐沐呆瓜
-						</a>
-						<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize"
-						href="https://github.com" target="_blank">
-							<span class="iconfont iconShopping Mall">
-							</span>
-							GitHub
-						</a>
-						<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize"
-						href="mailto:3438063297@qq.com" target="_blank">
-							<span class="iconfont iconPrivate letter">
-							</span>
-							Email
-						</a>
-					</div>
-				</div>
-				<div class="mdui-col-xs-12 mdui-col-md-10">
-					<div class="mdui-card rin-card">
-						<!-- <div class="rin-card-title">关于我</div>-->
-						<div class="rin-card-part" id="introduce" style="margin-top: 0;">
-							<div class="rin-card-content mdui-typo">
-								你好，这里是沐沐的个人主页~
-								<br>
-								坐标东北，小仙女一枚 嘿嘿
-								<br>
-								欢迎加入沐沐乐园
-								<a href="https://jq.qq.com/?_wv=1027&k=emeNGM2G" target="_blank" class="">
-									点击这里
-								</a>
-								。
-							</div>
-						</div>
-						<!-- <div class="rin-tr"></div>-->
-						<div class="rin-card-part" id="fighting">
-							<div class="rin-card-title2 mdui-typo">
-								<a href="#fighting">
-									#
-								</a>
-								战斗力
-							</div>
-							<div class="mdui-container">
-								<div class="mdui-row">
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '干饭人，干饭魂，干饭人吃饭得用盆'}">
-										<div class="rin-progress-title">
-											干饭属性
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 100%;">
-											</div>
-										</div>
-									</div>
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '小仙女一枚，仙气满满'}">
-										<div class="rin-progress-title">
-											仙女属性
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 100%;">
-											</div>
-										</div>
-									</div>
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '现用现学的能力:我菜了'}">
-										<div class="rin-progress-title">
-											萝御双修
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 99%;">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="mdui-row">
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '真的非常闲'}">
-										<div class="rin-progress-title">
-											闲属性
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 95%;">
-											</div>
-										</div>
-									</div>
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '不搞事情，但是喜欢看别人搞事情'}">
-										<div class="rin-progress-title">
-											搞事情
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 45%;">
-											</div>
-										</div>
-									</div>
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '见到帅哥容易把持不住，但还是挺专一的'}">
-										<div class="rin-progress-title">
-											情感
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 65%;">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="mdui-row">
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '脾气:有些暴躁'}">
-										<div class="rin-progress-title">
-											脾气
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 20%;">
-											</div>
-										</div>
-									</div>
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '对特别好的朋友还是有耐心'的}">
-										<div class="rin-progress-title">
-											耐心
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 25%;">
-											</div>
-										</div>
-									</div>
-									<div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '对这个世界热爱的程度'}">
-										<div class="rin-progress-title">
-											世界
-										</div>
-										<div class="mdui-progress">
-											<div class="mdui-progress-determinate" style="width: 100%;">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="rin-card-part" id="contact">
-							<div class="rin-card-title2 mdui-typo">
-								<a href="#contact">
-									#
-								</a>
-								我的足迹
-							</div>
-							<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
-							href="http://wpa.qq.com/msgrd?v=3&uin=3438063297&site=qq&menu=yes" target="_blank">
-								<span class="iconfont icontwitter-fill">
-								</span>
-								QQ
-							</a>
-							<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-pink mdui-text-capitalize"
-							href="https://space.bilibili.com/" target="_blank">
-								<span class="iconfont iconbilibili">
-								</span>
-								Bilibili
-							</a>
-							<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
-							href="mailto:3438063297@qq.com" target="_blank">
-								<span class="iconfont iconmail_fill">
-								</span>
-								Mail
-							</a>
-						</div>
-						<div class="rin-card-part" id="article">
-							<div class="rin-card-title2 mdui-typo">
-								<a href="#article">
-									#
-								</a>
-								文章
-							</div>
-							<a target="_blank" href="#">
-								<div class="mdui-card rin-card rin-card-article" style="margin-bottom: 10px;">
-									<div class="rin-article-title">
-										沐沐吖～
-									</div>
-									<div class="rin-article-content">
-										我每天都很忙，忙着长大，忙着可爱，忙着调皮。
-									</div>
-								</div>
-							</a>
-							<a class="rin-article-more" target="_blank" href="">
-								Learn more...
-							</a>
-						</div>
-						<div class="rin-card-part" id="works">
-							<div class="rin-card-title2 mdui-typo">
-								<a href="#works">
-									#
-								</a>
-								作品
-							</div>
-							<a target="_blank" href="#">
-								<div class="mdui-card rin-card rin-card-article" style="margin-bottom: 10px;">
-									<div class="rin-article-title">
-										苏苏-qq群机器人
-									</div>
-									<div class="rin-article-content">
-										糖果-qq群机器人(注:作者柠希)
-									</div>
-								</div>
-							</a>
-							<a class="rin-article-more" target="_blank" href="">
-								Learn more...
-							</a>
-						</div>
-						<div class="rin-tr">
-						</div>
-						<div class="rin-card-part" id="last">
-							<div class="rin-card-title2">
-								沐沐@AFQAQ
-							</div>
-							<div class="rin-card-content">
-								顺其自然！
-							</div>
-						</div>
-						<div class="rin-card-part" id="footer">
-							<div class="rin-card-content">
-								© 2021 沐沐个人主页 | Made with love by AFQAQ
-							</div>
+					</div><!-- 关于内容结束 -->
+					</section><!-- 关于结束 -->
+				<section class="course-exp-section"><!-- 历程开始 -->
+					<div class="main"><!-- 历程内容 -->
+						<img src="img/bgt.jpg" class="bgt" />
+						<img src="https://q1.qlogo.cn/g?b=qq&nk=3438063297&s=640" class="ats" />
+						<div class="box">
+							<div id="boxs">
+								<div class="track-list"><!-- 时间轴开始 -->
+								<ul>
+									<li>
+										<i class="node-icon"><img src="img/tbl.svg"></i>
+										<span class="time" style="color:#2ECC71">2021-12-25</span>
+										<span class="txt" style="color:#2ECC71">送给了他一份特殊的圣诞礼物</span>
+									</li>
+									<li>
+										<i class="node-icon"><img src="img/tb.svg"></i>
+										<span class="time">2021-7-13</span>
+										<span class="txt">第一次同一个房间入眠</span>
+									</li>
+									<li>
+										<i class="node-icon"><img src="img/tb.svg"></i>
+										<span class="time">2021-7-13</span>
+										<span class="txt">第一次接吻</span>
+									</li>
+									<li>
+										<i class="node-icon"><img src="img/tb.svg"></i>
+										<span class="time">2021-5-1</span>
+										<span class="txt">我们确定了关系</span>
+									</li>
+									<li>
+										<i class="node-icon"><img src="img/tb.svg"></i>
+										<span class="time">2021-4-30</span>
+										<span class="txt">他送给我第一封情书</span>
+									</li>
+								</ul>
+							</div><!-- 时间轴结束 -->
 						</div>
 					</div>
-				</div>
-		</main>
-		<script src="./mdui/js/mdui.min.js">
-		</script>
-		<!--<script src="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/assets/js/main.js"></script>-->
-	</body>
+						<div style="color:#aaa;text-align:center;font-size:12px">
+								注: 上下滑动查看历史进程
+							</div>
+						</div><!-- 历程内容结束 -->
+					</section><!-- 历程结束 -->
+				<section class="website-exp-section"><!-- 站点开始 -->
+					<div class="main"><!-- 站点内容开始 -->
+						<img src="img/bgt.jpg" class="bgt" />
+						<img src="https://q1.qlogo.cn/g?b=qq&nk=3438063297&s=640" class="ats" />
+						<a href="https://81645.huiansheng.cn/" target="_blank"><div class="web">沐沐呆瓜</div></a><!-- 站点一 -->
+						<a href="#" target="_blank"><div class="web">无</div></a><!-- 站点二 -->
+						<a href="#" target="_blank"><div class="web">无</div></a><!-- 站点三 -->
+						<div class="tips">所有站点均正常运行</div>
+						</div><!-- 站点内容结束 -->
+					</section><!-- 站点结束 -->
+				</div><!-- 内容结束 -->
+			</div><!-- 主体结束 -->
+			<img src="img/China.svg" style="width:60px;right:0px;position:fixed;bottom:0px;" /><!-- 右下角国旗 -->
+		<div class="footer"><!-- 底部版权 -->
+				<span id="sitetime"></span><!-- 运行时间 -->
+				<br>沐沐科技.
+			</div><!-- 版权结束 -->
+		<div id="tp-weather-widget"></div><!-- 天气插件 -->
+		
+		
 
+		
+		<script>
+			(function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+			window.SeniverseWeatherWidget('show', {
+			flavor: "bubble",
+			location: "WX4FBXXFKE4F",
+			geolocation: true,
+			language: "zh-Hans",
+			unit: "c",
+			theme: "auto",
+			token: "ac1d036a-99f3-4f88-ae98-f795bb93a9f0",
+			hover: "disabled",
+			container: "tp-weather-widget"
+			})
+		</script><!-- 天气插件结束 -->
+		<script src="js/index.js"></script><!-- 核心插件 -->
+		<script src="js/all.js"></script><!-- 图标库 -->
+		<script src="js/Sitetime.js"></script><!-- 运行时间 -->
+		<script src="js/Mouse.js"></script><!-- 点击烟花特效 -->
+	</body>
 </html>
